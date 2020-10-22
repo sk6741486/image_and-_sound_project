@@ -1,6 +1,6 @@
 ﻿namespace image_and__sound_project
 {
-    partial class Form1
+    partial class image_and_sound
     {
         /// <summary>
         /// Required designer variable.
@@ -41,9 +41,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(115, 34);
+            this.pictureBox1.Location = new System.Drawing.Point(202, 56);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(586, 248);
+            this.pictureBox1.Size = new System.Drawing.Size(497, 195);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -56,6 +56,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -68,7 +69,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(299, 329);
+            this.button3.Location = new System.Drawing.Point(308, 329);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 44);
             this.button3.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(429, 329);
+            this.button4.Location = new System.Drawing.Point(441, 329);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(119, 44);
             this.button4.TabIndex = 4;
@@ -86,7 +87,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(554, 329);
+            this.button5.Location = new System.Drawing.Point(591, 329);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(108, 44);
             this.button5.TabIndex = 5;
@@ -95,19 +96,20 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(678, 329);
+            this.button6.Location = new System.Drawing.Point(724, 329);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(98, 44);
             this.button6.TabIndex = 6;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // image_and_sound
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::image_and__sound_project.Properties.Resources.for_game;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::image_and__sound_project.Properties.Resources.background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(876, 457);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -115,7 +117,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "image_and_sound";
             this.Text = "sound and image form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
