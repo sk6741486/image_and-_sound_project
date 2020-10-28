@@ -101,5 +101,10 @@
   <ItemGroup>
     <None Include="Resources\empty-bullet-shell-fall-01.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\air.jpg" />
+    <None Include="Resources\shootpic.jpg" />
+    <EmbeddedResource Include="Resources\gunload.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

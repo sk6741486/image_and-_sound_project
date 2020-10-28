@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -24,11 +25,13 @@ namespace image_and__sound_project
 
             Assembly myAssembly = Assembly.GetExecutingAssembly();
 
-            System.IO.Stream myStream = myAssembly.GetManifestResourceStream("ProjectName.Resources.ImageFileName.jpg");
+            Stream myStream = myAssembly.GetManifestResourceStream("image_and_sound_project.Resources.gunload.jpg");
 
             Bitmap bmp_Object = new Bitmap(myStream);
 
-            PictureBox_Name.Image = bmp_Object;
+            pictureBox1.Image = bmp_Object;
+
+
 
 
         }

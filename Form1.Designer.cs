@@ -41,9 +41,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(202, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(202, 68);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(497, 195);
+            this.pictureBox1.Size = new System.Drawing.Size(497, 222);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -54,7 +54,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 44);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "LOAD";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -64,7 +64,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(119, 44);
             this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
+            this.button2.Text = "SPIN";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -73,7 +73,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 44);
             this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
+            this.button3.Text = "SHOOT";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -82,7 +82,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(119, 44);
             this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
+            this.button4.Text = "SHOOT AWAY";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -91,7 +91,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(108, 44);
             this.button5.TabIndex = 5;
-            this.button5.Text = "button5";
+            this.button5.Text = "PLAY";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -100,7 +100,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(98, 44);
             this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
+            this.button6.Text = "EXIT";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // image_and_sound

@@ -63,6 +63,16 @@ namespace image_and__sound_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap air {
+            get {
+                object obj = ResourceManager.GetObject("air", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
@@ -104,6 +114,26 @@ namespace image_and__sound_project.Properties {
         internal static System.IO.UnmanagedMemoryStream gun_gunshot_01 {
             get {
                 return ResourceManager.GetStream("gun_gunshot_01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gunload {
+            get {
+                object obj = ResourceManager.GetObject("gunload", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shootpic {
+            get {
+                object obj = ResourceManager.GetObject("shootpic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
