@@ -87,7 +87,7 @@
     <None Include="Resources\for game.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gun.jpg" />
+    <EmbeddedResource Include="Resources\gun.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\soh.jpg" />

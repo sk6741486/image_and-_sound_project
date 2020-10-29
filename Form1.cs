@@ -23,13 +23,13 @@ namespace image_and__sound_project
         {
             //code to display image in picture box on button click  
 
-            Assembly myAssembly = Assembly.GetExecutingAssembly();
+           // Assembly myAssembly = Assembly.GetExecutingAssembly();
 
-            Stream myStream = myAssembly.GetManifestResourceStream("image_and_sound_project.Resources.gunload.jpg");
+            //Stream myStream = myAssembly.GetManifestResourceStream("image_and_sound_project.Resources.gun.jpg");
 
-            Bitmap bmp_Object = new Bitmap(myStream);
+         //   Bitmap bmp_Object = new Bitmap(myStream);
 
-            pictureBox1.Image = bmp_Object;
+            pictureBox1.Image = image_and__sound_project.Properties.Resources.gunload;
 
 
 
