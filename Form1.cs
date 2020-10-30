@@ -34,18 +34,11 @@ namespace image_and__sound_project
 
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(Properties.Resources.gun_cocking_01);
 
-            Sound_Object.Play();
-            //code to display image in picture box on button click  
+           
+        }
 
-            // Assembly myAssembly = Assembly.GetExecutingAssembly();
-
-            //Stream myStream = myAssembly.GetManifestResourceStream("image_and_sound_project.Resources.spingif.gif");
-
-            //   Bitmap bmp_Object = new Bitmap(myStream);
-
-        .Image = image_and__sound_project.Properties.Resources.spin.gif;
-
+        private void image_and_sound_Load(object sender, EventArgs e)
+        {
 
         }
     
-}

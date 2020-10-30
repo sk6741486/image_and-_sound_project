@@ -29,79 +29,79 @@
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.LOADBUTTON = new System.Windows.Forms.Button();
+            this.SPINBUTTON = new System.Windows.Forms.Button();
+            this.SHOOTBTTTON = new System.Windows.Forms.Button();
+            this.SHOOTAWAYBUTTON = new System.Windows.Forms.Button();
+            this.PLAYAGAINBUTTON = new System.Windows.Forms.Button();
+            this.EXITBUTTON = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(202, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(235, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(497, 222);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // LOADBUTTON
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(43, 329);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 44);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "LOAD";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.LOADBUTTON.BackColor = System.Drawing.Color.Transparent;
+            this.LOADBUTTON.Location = new System.Drawing.Point(43, 329);
+            this.LOADBUTTON.Name = "LOADBUTTON";
+            this.LOADBUTTON.Size = new System.Drawing.Size(116, 44);
+            this.LOADBUTTON.TabIndex = 1;
+            this.LOADBUTTON.Text = "LOAD";
+            this.LOADBUTTON.UseVisualStyleBackColor = false;
+            this.LOADBUTTON.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // SPINBUTTON
             // 
-            this.button2.Location = new System.Drawing.Point(174, 329);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 44);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "SPIN";
-            this.button2.UseVisualStyleBackColor = true;
+            this.SPINBUTTON.Location = new System.Drawing.Point(174, 329);
+            this.SPINBUTTON.Name = "SPINBUTTON";
+            this.SPINBUTTON.Size = new System.Drawing.Size(119, 44);
+            this.SPINBUTTON.TabIndex = 2;
+            this.SPINBUTTON.Text = "SPIN";
+            this.SPINBUTTON.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // SHOOTBTTTON
             // 
-            this.button3.Location = new System.Drawing.Point(308, 329);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 44);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "SHOOT";
-            this.button3.UseVisualStyleBackColor = true;
+            this.SHOOTBTTTON.Location = new System.Drawing.Point(308, 329);
+            this.SHOOTBTTTON.Name = "SHOOTBTTTON";
+            this.SHOOTBTTTON.Size = new System.Drawing.Size(115, 44);
+            this.SHOOTBTTTON.TabIndex = 3;
+            this.SHOOTBTTTON.Text = "SHOOT";
+            this.SHOOTBTTTON.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // SHOOTAWAYBUTTON
             // 
-            this.button4.Location = new System.Drawing.Point(441, 329);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 44);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "SHOOT AWAY";
-            this.button4.UseVisualStyleBackColor = true;
+            this.SHOOTAWAYBUTTON.Location = new System.Drawing.Point(441, 329);
+            this.SHOOTAWAYBUTTON.Name = "SHOOTAWAYBUTTON";
+            this.SHOOTAWAYBUTTON.Size = new System.Drawing.Size(119, 44);
+            this.SHOOTAWAYBUTTON.TabIndex = 4;
+            this.SHOOTAWAYBUTTON.Text = "SHOOT AWAY";
+            this.SHOOTAWAYBUTTON.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // PLAYAGAINBUTTON
             // 
-            this.button5.Location = new System.Drawing.Point(591, 329);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(108, 44);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "PLAY";
-            this.button5.UseVisualStyleBackColor = true;
+            this.PLAYAGAINBUTTON.Location = new System.Drawing.Point(591, 329);
+            this.PLAYAGAINBUTTON.Name = "PLAYAGAINBUTTON";
+            this.PLAYAGAINBUTTON.Size = new System.Drawing.Size(108, 44);
+            this.PLAYAGAINBUTTON.TabIndex = 5;
+            this.PLAYAGAINBUTTON.Text = "PLAY AGAIN";
+            this.PLAYAGAINBUTTON.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // EXITBUTTON
             // 
-            this.button6.Location = new System.Drawing.Point(724, 329);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(98, 44);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "EXIT";
-            this.button6.UseVisualStyleBackColor = true;
+            this.EXITBUTTON.Location = new System.Drawing.Point(724, 329);
+            this.EXITBUTTON.Name = "EXITBUTTON";
+            this.EXITBUTTON.Size = new System.Drawing.Size(98, 44);
+            this.EXITBUTTON.TabIndex = 6;
+            this.EXITBUTTON.Text = "EXIT";
+            this.EXITBUTTON.UseVisualStyleBackColor = true;
             // 
             // image_and_sound
             // 
@@ -110,15 +110,16 @@
             this.BackgroundImage = global::image_and__sound_project.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(876, 457);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.EXITBUTTON);
+            this.Controls.Add(this.PLAYAGAINBUTTON);
+            this.Controls.Add(this.SHOOTAWAYBUTTON);
+            this.Controls.Add(this.SHOOTBTTTON);
+            this.Controls.Add(this.SPINBUTTON);
+            this.Controls.Add(this.LOADBUTTON);
             this.Controls.Add(this.pictureBox1);
             this.Name = "image_and_sound";
             this.Text = "sound and image form";
+            this.Load += new System.EventHandler(this.image_and_sound_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -127,12 +128,12 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button LOADBUTTON;
+        private System.Windows.Forms.Button SPINBUTTON;
+        private System.Windows.Forms.Button SHOOTBTTTON;
+        private System.Windows.Forms.Button SHOOTAWAYBUTTON;
+        private System.Windows.Forms.Button PLAYAGAINBUTTON;
+        private System.Windows.Forms.Button EXITBUTTON;
     }
 }
 
