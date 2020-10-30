@@ -16,7 +16,7 @@ namespace image_and__sound_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new image_and_sound());
+            Application.Run(new ());
         }
     }
 }

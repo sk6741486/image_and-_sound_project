@@ -8964,6 +8964,12 @@
         ajISAAAAAAAAAAAL
 </value>
   </data>
+  <data name="gifload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gifload.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gifshoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gifshoot.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="gun" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -16231,5 +16237,8 @@
   </data>
   <data name="soh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\soh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

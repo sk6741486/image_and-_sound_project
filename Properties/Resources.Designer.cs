@@ -92,6 +92,26 @@ namespace image_and__sound_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gifload {
+            get {
+                object obj = ResourceManager.GetObject("gifload", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gifshoot {
+            get {
+                object obj = ResourceManager.GetObject("gifshoot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gun {
             get {
                 object obj = ResourceManager.GetObject("gun", resourceCulture);
@@ -143,6 +163,16 @@ namespace image_and__sound_project.Properties {
         internal static System.Drawing.Bitmap soh {
             get {
                 object obj = ResourceManager.GetObject("soh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spin {
+            get {
+                object obj = ResourceManager.GetObject("spin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
